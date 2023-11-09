@@ -1,0 +1,89 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Dm-Sans';
+    src: url(font/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: 'Open-Sans';
+    src: url(Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    color: #ffffff;
+    background-color:#141D26 ;
+}
+#header{
+    display: flex;
+    background: #233446;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.logo, .atributos{
+    margin: 10px 20px;
+}
+h1{
+    font: 33px  'Open-Sans', sans-serif;
+}
+form{
+    text-align: center;
+    margin: 60px 0;
+}
+form input {
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #65717F;
+    font: 14px  'Open-Sans', sans-serif;
+    margin: 10px;
+    
+}
+input::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  form button {
+    background-color: #65717F;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font: 14px sans-serif;
+}
+form button:hover {
+    background-color: #314d6d;
+    transition-duration: 0.5s
+}
+
+h2{
+    font: 25px 'Dm-Sans', sans-serif;
+    text-align: justify;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.coluna{
+    border-radius: 5px;
+    padding: 25px;
+    height: 280px;
+    flex: 1 30px;
+    margin: 20px;
+    background: #65717F;
+}
+.tarefa {
+    background-color: #f8f7f7f7;
+    padding: 12px;
+    color: black;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid rgb(12, 12, 12);
+    font: 15px 'Dm-Sans', sans-serif;
+}
+.tarefas {
+    list-style: none;
+}
